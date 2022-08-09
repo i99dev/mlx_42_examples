@@ -7,9 +7,10 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
  
+make: *** No rule to make target `all'.  Stop.
 
-# Make data base, printed on Tue Aug  9 11:33:02 2022
- 
+
+# Make data base, printed on Tue Aug  9 11:54:23 2022
 
 # Variables
 
@@ -100,7 +101,7 @@ MAKE_VERSION := 3.81
 # environment
 USER = oal-tena
 # makefile
-.DEFAULT_GOAL := all
+.DEFAULT_GOAL := exmaple
 # makefile (from `Makefile', line 15)
 MINILIBX_PATH = lib/minilibx-linux
 # makefile (from `Makefile', line 13)
@@ -174,11 +175,9 @@ VSCODE_PID = 64389
 
 # Directories
 
-# include (device 16777225, inode 3083964): 5 files, no impossibilities so far.
-# . (device 16777225, inode 3081253): 12 files, no impossibilities.
-# src (device 16777225, inode 3084061): 4 files, no impossibilities so far.
+# . (device 16777225, inode 3081253): 14 files, no impossibilities.
 
-# 21 files, no impossibilities in 3 directories.
+# 14 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -196,39 +195,36 @@ package/%.o: %.c include/mlx_example.h
 
 exmaple: package/src/main.o lib/macos/libmlx.a
 #  Implicit rule search has not been done.
-#  Last modified 2022-08-09 10:57:41
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  Modification time never checked.
+#  File has not been updated.
 #  commands to execute (from `Makefile', line 56):
 	$(CC)  $(OBJ_PREFX) ${NAME_L} -o $(NAME)
 	@echo "make done !"
 	
 
-package/src/main.o: src/main.c include/mlx_example.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: `src/main'
-#  Last modified 2022-08-09 10:52:56
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-#  commands to execute (from `Makefile', line 50):
-	@echo "Compiling $(<)"
-	@mkdir -p $(OBJ_DIR)/src
-	@echo "Compiling: $<"
-	@$(CC) $(CC_FLAGS) ${OBJ_L} -c $< -o $@
-	
+# Not a target:
+package/src/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
-all: exmaple
+# Not a target:
+all:
 #  Command-line target.
 #  Implicit rule search has been done.
 #  File does not exist.
-#  File has been updated.
-#  Successfully updated.
+#  File has not been updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+window: exmaple
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 60):
+	$(CC)  ./src/create_windows.c ${NAME_L} -o windows
+	@echo "make done !"
+	
 
 # Not a target:
 .SUFFIXES:
@@ -239,7 +235,7 @@ all: exmaple
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-09 10:59:13
+#  Last modified 2022-08-09 11:54:12
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -249,18 +245,9 @@ fclean:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 65):
+#  commands to execute (from `Makefile', line 67):
 	rm -f $(NAME)
 	
-
-# Not a target:
-src/main.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-08-09 10:35:43
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # Not a target:
 .DEFAULT:
@@ -277,30 +264,18 @@ clean:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 61):
+#  commands to execute (from `Makefile', line 63):
 	@rm -rf $(OBJ_DIR)
 	
 
 # Not a target:
-include/mlx_example.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-08-09 10:50:23
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-
-# Not a target:
 lib/macos/libmlx.a:
-#  Implicit rule search has been done.
-#  Last modified 2022-08-02 11:14:09
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # files hash-table stats:
-# Load=12/1024=1%, Rehash=0, Collisions=0/36=0%
+# Load=11/1024=1%, Rehash=0, Collisions=0/29=0%
 # VPATH Search Paths
 
 # No `vpath' search paths.
@@ -312,6 +287,6 @@ lib/macos/libmlx.a:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Tue Aug  9 11:33:02 2022
+# Finished Make data base on Tue Aug  9 11:54:23 2022
 
  

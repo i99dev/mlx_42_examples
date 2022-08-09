@@ -6,7 +6,7 @@
 /*   By: oal-tena <oal-tena@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/09 10:03:41 by oal-tena          #+#    #+#             */
-/*   Updated: 2022/08/09 10:50:23 by oal-tena         ###   ########.fr       */
+/*   Updated: 2022/08/09 12:00:52 by oal-tena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,14 @@
 #  define ESCAPE_KEY 53
 # endif
 
-
+# include <fcntl.h>
+# include <math.h>
+# include <pthread.h>
+# include <stdio.h>
+# include <stdlib.h>
+# include <string.h>
+# include <time.h>
+# include <unistd.h>
 
 
 #endif
