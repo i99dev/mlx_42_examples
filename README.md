@@ -1,4 +1,4 @@
-# MLX Example
+# MLX Example 🚧 Under construction 🚧
 ---
 MLX library is available for Linux and MacOS.
 
@@ -11,3 +11,6 @@ And this repository use Two different MLX libraries depending on the OS , you ca
 - [x] how create window.
 - [x] how you can draw a line
 - [Doc and Exmaple](./src/window/)
+
+### contributors
+at slack  : @oal-tena
