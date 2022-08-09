@@ -8,6 +8,6 @@ Linux Library is available from:[link](https://github.com/42Paris/minilibx-linux
 
 ### Example One :
 - [x] how you can initialize a MLX library.
-- [x]how create window.
-- [x]how you can draw a line
+- [x] how create window.
+- [x] how you can draw a line
 - [Doc and Exmaple](./src/window/)
