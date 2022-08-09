@@ -6,7 +6,7 @@
 #    By: oal-tena <oal-tena@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/09 09:48:24 by oal-tena          #+#    #+#              #
-#    Updated: 2022/08/09 10:59:13 by oal-tena         ###   ########.fr        #
+#    Updated: 2022/08/09 11:49:47 by oal-tena         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,7 +43,7 @@ endif
 
 SRC = src/main.c
 
-all: $(NAME)
+# all: $(NAME)
 
 
 $(OBJ_DIR)%.o:%.c include/mlx_example.h
@@ -55,8 +55,10 @@ $(OBJ_DIR)%.o:%.c include/mlx_example.h
 $(NAME):$(OBJ_PREFX) $(H_L)
 	$(CC)  $(OBJ_PREFX) ${NAME_L} -o $(NAME)
 	@echo "make done !"
-
-
+# exmaple 01: create window by mlx 
+window: $(NAME)
+	$(CC)  ./src/main.c ${NAME_L} -o windows
+	@echo "make done !"
 clean:
 	@rm -rf $(OBJ_DIR)
 
