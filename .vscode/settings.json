@@ -2,5 +2,7 @@
     "makefile.extensionOutputFolder": "./.vscode",
     "files.associations": {
         "mlx.h": "c"
-    }
+    },
+    "codam-norminette-3.highlight-color": "none",
+    "codam-norminette-3.command": "norminette -R CheckCode",
 }
