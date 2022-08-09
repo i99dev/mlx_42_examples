@@ -1,6 +1,10 @@
 make --dry-run --keep-going --print-directory
-make: Entering directory `/Users/oal-tena/Desktop/mlx_42_example'
-make: `exmaple' is up to date.
- 
-make: Leaving directory `/Users/oal-tena/Desktop/mlx_42_example'
+make: Entering directory '/workspaces/mlx_42_example'
+make -C lib/minilibx-linux
+make[1]: Entering directory '/workspaces/mlx_42_example/lib/minilibx-linux'
+./configure
+make[1]: Leaving directory '/workspaces/mlx_42_example/lib/minilibx-linux'
+gcc -g -O0  ./src/window/main.c -L/usr/lib ./lib/minilibx-linux/libmlx_linux.a -lXext -lX11 -lm -lz -o ex_window
+echo "make done !"
+make: Leaving directory '/workspaces/mlx_42_example'
  

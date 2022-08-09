@@ -1,173 +1,136 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-# GNU Make 3.81
-# Copyright (C) 2006  Free Software Foundation, Inc.
-# This is free software; see the source for copying conditions.
-# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
-# PARTICULAR PURPOSE.
-
-# This program built for i386-apple-darwin11.3.0
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
  
-make: *** No rule to make target `all'.  Stop.
 
-
-# Make data base, printed on Tue Aug  9 12:45:53 2022
+# Make data base, printed on Tue Aug  9 12:49:19 2022
 
 # Variables
 
-# automatic
-<D = $(patsubst %/,%,$(dir $<))
-# automatic
-?F = $(notdir $?)
-# makefile (from `Makefile', line 22)
-OBJ = $(SRC:.c=.o)
-# makefile (from `Makefile', line 44)
-SRC = src/main.c
-# automatic
-?D = $(patsubst %/,%,$(dir $?))
+# environment
+REMOTE_CONTAINERS_SOCKETS = ["/tmp/vscode-ssh-auth-0f23b2343e909aac3ba1b9887f4b150c58657cab.sock"]
+# environment
+LC_ALL = C
+# environment
+VSCODE_CWD = /vscode/vscode-server/bin/linux-x64/da76f93349a72022ca4670c1b84860304616aaa2
+# default
+MAKE_COMMAND := make
+# environment
+VSCODE_HANDLES_SIGPIPE = true
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
-# automatic
-@F = $(notdir $@)
-# makefile
-CURDIR := /Users/oal-tena/Desktop/mlx_42_example
-# makefile
-SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
-# makefile (from `Makefile', line 18)
-MLX = ./lib/minilibx-linux/libmlx_linux.a
-# environment
-_ = /usr/bin/make
-# makefile (from `Makefile', line 1)
-MAKEFILE_LIST :=  Makefile
-# makefile (from `Makefile', line 32)
-OP = mac
-# makefile (from `Makefile', line 21)
-OBJ_DIR = package/
-# makefile (from `Makefile', line 23)
-OBJ_PREFX = $(addprefix $(OBJ_DIR),$(OBJ))
-# environment
-VSCODE_CWD = /
-# environment
-PATH = /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki
-# environment
-LSCOLORS = Gxfxcxdxbxegedabagacad
-# environment
-ELECTRON_RUN_AS_NODE = 1
-# default
-.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
-# makefile (from `Makefile', line 19)
-MACOS = ./lib/macos/libmlx.a
-# environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.5wY4Csv0jf/Listeners
-# automatic
-%F = $(notdir $%)
-# makefile (from `Makefile', line 33)
-OBJ_L = -I/usr/include -I$(MINILIBX_MACOS)
-# environment
-PWD = /Users/oal-tena/Desktop/mlx_42_example
-# environment
-ORIGINAL_XDG_CURRENT_DESKTOP = undefined
-# environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
-# environment
-HOME = /Users/oal-tena
-# default
-MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
-# environment
-VSCODE_CODE_CACHE_PATH = /Users/oal-tena/Library/Application Support/Code/CachedData/da76f93349a72022ca4670c1b84860304616aaa2
-# environment
-LOGNAME = oal-tena
-# environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
-# environment
-ZSH = /Users/oal-tena/.oh-my-zsh
+DOCKER_BUILDKIT = 1
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
-# automatic
-^D = $(patsubst %/,%,$(dir $^))
-# environment
-XPC_FLAGS = 0x0
-# default
-MAKE = $(MAKE_COMMAND)
-# default
-MAKECMDGOALS := all
-# environment
-SHLVL = 1
-# makefile (from `Makefile', line 26)
-CC = gcc -g -O0
-# default
-MAKE_VERSION := 3.81
-# environment
-USER = oal-tena
-# makefile
-.DEFAULT_GOAL := exmaple
-# makefile (from `Makefile', line 15)
-MINILIBX_PATH = lib/minilibx-linux
-# makefile (from `Makefile', line 13)
-NAME = exmaple
-# makefile (from `Makefile', line 34)
-NAME_L = $(MACOS) -framework OpenGL -framework AppKit
-# makefile (from `Makefile', line 35)
-H_L = ${MACOS}
-# makefile (from `Makefile', line 16)
-MINILIBX_MACOS = lib/macos
-# environment
-LESS = -R
-# automatic
-%D = $(patsubst %/,%,$(dir $%))
-# default
-MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
 # default
 .VARIABLES := 
 # environment
-TMPDIR = /var/folders/zz/zyxvpxvq6csfxvn_n000c_mc0032n3/T/
+PWD = /workspaces/mlx_42_example
 # automatic
-*F = $(notdir $*)
-# makefile (from `Makefile', line 30)
-OS = $(shell uname)
+%D = $(patsubst %/,%,$(dir $%))
 # environment
-VSCODE_IPC_HOOK = /Users/oal-tena/Library/Application Support/Code/1.70.0-main.sock
+HOSTNAME = 42MINISHELL
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
 # environment
-MallocNanoZone = 0
+LANG = C
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
 # makefile
-MAKEFLAGS = Rrqp
+MAKEFLAGS = pqrRw
+# makefile
+CURDIR := /workspaces/mlx_42_example/lib/minilibx-linux
 # environment
-MFLAGS = -Rrqp
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-XPC_SERVICE_NAME = com.microsoft.VSCode.2616
+MFLAGS = -pqrRw
+# environment
+SSH_AUTH_SOCK = /tmp/vscode-ssh-auth-0f23b2343e909aac3ba1b9887f4b150c58657cab.sock
+# default
+.SHELLFLAGS := -c
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
 # automatic
-+F = $(notdir $+)
+@F = $(notdir $@)
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
 # environment
-__CF_USER_TEXT_ENCODING = 0x18AA3:0x0:0x0
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile
+SHELL = /bin/sh
+# environment
+SHLVL = 1
+# environment
+MAKELEVEL := 1
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /vscode/vscode-server/bin/linux-x64/da76f93349a72022ca4670c1b84860304616aaa2/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 # default
 MAKEFILES := 
-# makefile (from `Makefile', line 25)
-CC_FLAG = -Wall -Wextra -Werror
-# automatic
-<F = $(notdir $<)
-# environment
-PAGER = less
-# environment
-LC_ALL = C
 # automatic
 ^F = $(notdir $^)
+# environment
+REMOTE_CONTAINERS_IPC = /tmp/vscode-remote-containers-ipc-0f23b2343e909aac3ba1b9887f4b150c58657cab.sock
+# environment
+REMOTE_CONTAINERS = true
+# automatic
+?F = $(notdir $?)
+# automatic
++F = $(notdir $+)
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+BROWSER = /vscode/vscode-server/bin/linux-x64/da76f93349a72022ca4670c1b84860304616aaa2/bin/helpers/browser.sh
+# makefile
+.DEFAULT_GOAL := all
+# environment
+DISPLAY = 192.168.4.70:0.0
+# environment
+USER = oal-tena
+# default
+MAKE_VERSION := 4.3
+# environment
+VSCODE_AGENT_FOLDER = /root/.vscode-server
+# environment
+_ = /bin/cat
+# environment
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-8df297cc-3268-440b-90f1-752082fa071b.sock
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /root
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
 # default
 SUFFIXES := 
 # default
-.INCLUDE_DIRS = /usr/local/include
-# environment
-MAKELEVEL := 0
-# environment
-LANG = C
-# environment
-VSCODE_PID = 64389
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # variable set hash-table stats:
-# Load=76/1024=7%, Rehash=0, Collisions=5/112=4%
+# Load=59/1024=6%, Rehash=0, Collisions=1/94=1%
 
 # Pattern-specific Variable Values
 
@@ -175,55 +138,346 @@ VSCODE_PID = 64389
 
 # Directories
 
-# . (device 16777225, inode 3081253): 14 files, no impossibilities.
+# . (device 27, inode 32088147345207738): 51 files, no impossibilities.
 
-# 14 files, no impossibilities in 1 directories.
+# 51 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
-package/%.o: %.c include/mlx_example.h
-#  commands to execute (from `Makefile', line 50):
-	@echo "Compiling $(<)"
-	@mkdir -p $(OBJ_DIR)/src
-	@echo "Compiling: $<"
-	@$(CC) $(CC_FLAGS) ${OBJ_L} -c $< -o $@
-	
-
-# 1 implicit rules, 0 (0.0%) terminal.
+# No implicit rules.
 
 # Files
 
-exmaple: package/src/main.o lib/macos/libmlx.a
+do_configure:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := do_configure
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 17):
+	./configure
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-09 12:17:42.5061119
+#  File has been updated.
+#  Successfully updated.
+
+clean:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 56):
-	$(CC)  $(OBJ_PREFX) ${NAME_L} -o $(NAME)
-	@echo "make done !"
-	
+#  recipe to execute (from 'Makefile', line 20):
+	./configure clean
 
-# Not a target:
-package/src/main.o:
+re: clean all
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-all:
-#  Command-line target.
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: do_configure
 #  Implicit rule search has been done.
 #  File does not exist.
-#  File has not been updated.
+#  File has been updated.
+#  Needs to be updated (-q is set).
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
 
-window: exmaple
+# Not a target:
+.SUFFIXES:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 60):
-	$(CC)  ./src/window/main.c ${NAME_L} -o windows
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/23=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 60 / storage = 849 B / avg = 14 B
+# current buf: size = 8162 B / used = 849 B / count = 60 / avg = 14 B
+
+# strcache performance: lookups = 71 / hit rate = 15%
+# hash-table stats:
+# Load=60/8192=1%, Rehash=0, Collisions=0/71=0%
+# Finished Make data base on Tue Aug  9 12:49:19 2022
+
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Aug  9 12:49:19 2022
+
+# Variables
+
+# environment
+REMOTE_CONTAINERS_SOCKETS = ["/tmp/vscode-ssh-auth-0f23b2343e909aac3ba1b9887f4b150c58657cab.sock"]
+# makefile (from 'Makefile', line 23)
+OBJ = $(SRC:.c=.o)
+# environment
+LC_ALL = C
+# environment
+VSCODE_CWD = /vscode/vscode-server/bin/linux-x64/da76f93349a72022ca4670c1b84860304616aaa2
+# default
+MAKE_COMMAND := make
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# makefile (from 'Makefile', line 16)
+MINILIBX_MACOS = lib/macos
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# makefile (from 'Makefile', line 39)
+OBJ_L = -I/usr/include -I$(MINILIBX_LINUX) -O3
+# environment
+DOCKER_BUILDKIT = 1
+# makefile (from 'Makefile', line 22)
+OBJ_DIR = package/
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /workspaces/mlx_42_example
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+HOSTNAME = 42MINISHELL
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# makefile (from 'Makefile', line 41)
+MLX_A = ${MLX_LINUX}
+# makefile (from 'Makefile', line 26)
+CC_FLAG = -Wall -Wextra -Werror
+# environment
+LANG = C
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /workspaces/mlx_42_example
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /tmp/vscode-ssh-auth-0f23b2343e909aac3ba1b9887f4b150c58657cab.sock
+# default
+.SHELLFLAGS := -c
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /vscode/vscode-server/bin/linux-x64/da76f93349a72022ca4670c1b84860304616aaa2/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+# default
+MAKEFILES := 
+# automatic
+ 
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 18)
+MLX_LINUX = ./lib/minilibx-linux/libmlx_linux.a
+# makefile (from 'Makefile', line 19)
+MLX_MAC = ./lib/macos/libmlx.a
+# environment
+REMOTE_CONTAINERS_IPC = /tmp/vscode-remote-containers-ipc-0f23b2343e909aac3ba1b9887f4b150c58657cab.sock
+# environment
+REMOTE_CONTAINERS = true
+# automatic
+?F = $(notdir $?)
+# makefile (from 'Makefile', line 13)
+NAME = exmaple
+# automatic
++F = $(notdir $+)
+# makefile (from 'Makefile', line 38)
+OP = linux
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+BROWSER = /vscode/vscode-server/bin/linux-x64/da76f93349a72022ca4670c1b84860304616aaa2/bin/helpers/browser.sh
+# makefile (from 'Makefile', line 30)
+OS = $(shell uname)
+# makefile
+.DEFAULT_GOAL := all
+# environment
+DISPLAY = 192.168.4.70:0.0
+# environment
+USER = oal-tena
+# default
+MAKE_VERSION := 4.3
+# 'override' directive
+.SHELLSTATUS := 0
+# makefile (from 'Makefile', line 15)
+MINILIBX_LINUX = lib/minilibx-linux
+# makefile (from 'Makefile', line 24)
+OBJ_PREFX = $(addprefix $(OBJ_DIR),$(OBJ))
+# environment
+VSCODE_AGENT_FOLDER = /root/.vscode-server
+# environment
+_ = /bin/cat
+# makefile (from 'Makefile', line 42)
+MLX_L = $(MINILIBX_LINUX)
+# environment
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-8df297cc-3268-440b-90f1-752082fa071b.sock
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /root
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 27)
+CC = gcc -g -O0
+# makefile (from 'Makefile', line 40)
+NAME_L = -L/usr/lib $(MLX_LINUX) -lXext -lX11 -lm -lz
+# variable set hash-table stats:
+# Load=77/1024=8%, Rehash=0, Collisions=1/121=1%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 27, inode 26740122787679360): 11 files, no impossibilities.
+
+# 11 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-09 12:48:24.8946922
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 52):
+	@rm -rf $(OBJ_DIR)
+	@rm -f ex_window
+
+re: fclean clean all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all:
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Last modified 2514-05-30 01:53:03.107374182
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=9/18=50%
+#  recipe to execute (from 'Makefile', line 47):
+	@ $(MAKE) -C $(MLX_L)
+	$(CC)  ./src/window/main.c ${NAME_L} -o ex_window
 	@echo "make done !"
+
+fclean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 57):
+	rm -f $(NAME)
+	
 	
 
 # Not a target:
@@ -232,61 +486,20 @@ window: exmaple
 #  Modification time never checked.
 #  File has not been updated.
 
-# Not a target:
-Makefile:
-#  Implicit rule search has been done.
-#  Last modified 2022-08-09 12:45:47
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-
-fclean:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 67):
-	rm -f $(NAME)
-	
-
-# Not a target:
-.DEFAULT:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-re: fclean clean all
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-clean:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 63):
-	@rm -rf $(OBJ_DIR)
-	
-
-# Not a target:
-lib/macos/libmlx.a:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
 # files hash-table stats:
-# Load=11/1024=1%, Rehash=0, Collisions=0/29=0%
+# Load=7/1024=1%, Rehash=0, Collisions=0/23=0%
 # VPATH Search Paths
 
-# No `vpath' search paths.
+# No 'vpath' search paths.
 
-# No general (`VPATH' variable) search path.
+# No general ('VPATH' variable) search path.
 
-# # of strings in strcache: 1
-# # of strcache buffers: 1
-# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
-# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+# strcache buffers: 1 (0) / strings = 19 / storage = 150 B / avg = 7 B
+# current buf: size = 8162 B / used = 150 B / count = 19 / avg = 7 B
 
-# Finished Make data base on Tue Aug  9 12:45:53 2022
+# strcache performance: lookups = 32 / hit rate = 40%
+# hash-table stats:
+# Load=19/8192=0%, Rehash=0, Collisions=0/32=0%
+# Finished Make data base on Tue Aug  9 12:49:19 2022
 
  
