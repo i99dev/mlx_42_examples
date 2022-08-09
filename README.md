@@ -5,10 +5,9 @@ I use Macos and linux libraries.
 Macos its download form 42 intra.
 Linux Library is available from:[link](https://github.com/42Paris/minilibx-linux)
 
-## MLX Example
 
-## Example One :
-- how you can initialize a MLX library.
-- how create window.
-- how you can draw a line
-- [link](./src/window/)
+### Example One :
+- [x] how you can initialize a MLX library.
+- [x]how create window.
+- [x]how you can draw a line
+- [Doc and Exmaple](./src/window/)
