@@ -6,12 +6,12 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Aug  9 12:55:34 2022
+# Make data base, printed on Tue Aug  9 15:26:02 2022
 
 # Variables
 
 # environment
-REMOTE_CONTAINERS_SOCKETS = ["/tmp/vscode-ssh-auth-623e43a8b9aa0a85dbbc318be8de783f4030eb37.sock"]
+REMOTE_CONTAINERS_SOCKETS = ["/tmp/vscode-ssh-auth-2b369fce03e4d9db6acc62a8c4f155db70f1a84d.sock"]
 # environment
 LC_ALL = C
 # environment
@@ -49,13 +49,13 @@ MAKEFLAGS = pqrRw
 # makefile
 CURDIR := /workspaces/mlx_42_example/lib/minilibx-linux
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
 MFLAGS = -pqrRw
 # environment
-SSH_AUTH_SOCK = /tmp/vscode-ssh-auth-623e43a8b9aa0a85dbbc318be8de783f4030eb37.sock
+SSH_AUTH_SOCK = /tmp/vscode-ssh-auth-2b369fce03e4d9db6acc62a8c4f155db70f1a84d.sock
 # default
 .SHELLFLAGS := -c
 # automatic
@@ -89,7 +89,7 @@ MAKEFILES :=
 # automatic
 ^F = $(notdir $^)
 # environment
-REMOTE_CONTAINERS_IPC = /tmp/vscode-remote-containers-ipc-623e43a8b9aa0a85dbbc318be8de783f4030eb37.sock
+REMOTE_CONTAINERS_IPC = /tmp/vscode-remote-containers-ipc-2b369fce03e4d9db6acc62a8c4f155db70f1a84d.sock
 # environment
 REMOTE_CONTAINERS = true
 # automatic
@@ -113,7 +113,7 @@ VSCODE_AGENT_FOLDER = /root/.vscode-server
 # environment
 _ = /bin/cat
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-a43461a4-2a69-4c76-826a-90578b10cb39.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-01fa2e2e-eb4a-4b84-a37e-da183ca97c53.sock
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -227,9 +227,8 @@ all: do_configure
 # strcache performance: lookups = 71 / hit rate = 15%
 # hash-table stats:
 # Load=60/8192=1%, Rehash=0, Collisions=0/71=0%
-# Finished Make data base on Tue Aug  9 12:55:34 2022
+# Finished Make data base on Tue Aug  9 15:26:02 2022
 
- 
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -237,12 +236,12 @@ all: do_configure
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Aug  9 12:55:34 2022
+# Make data base, printed on Tue Aug  9 15:26:02 2022
 
 # Variables
 
 # environment
-REMOTE_CONTAINERS_SOCKETS = ["/tmp/vscode-ssh-auth-623e43a8b9aa0a85dbbc318be8de783f4030eb37.sock"]
+REMOTE_CONTAINERS_SOCKETS = ["/tmp/vscode-ssh-auth-2b369fce03e4d9db6acc62a8c4f155db70f1a84d.sock"]
 # makefile (from 'Makefile', line 23)
 OBJ = $(SRC:.c=.o)
 # environment
@@ -283,6 +282,7 @@ MLX_A = ${MLX_LINUX}
 CC_FLAG = -Wall -Wextra -Werror
 # environment
 LANG = C
+ 
 # default
 .LOADED := 
 # default
@@ -292,13 +292,13 @@ MAKEFLAGS = pqrR
 # makefile
 CURDIR := /workspaces/mlx_42_example
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_AUTH_SOCK = /tmp/vscode-ssh-auth-623e43a8b9aa0a85dbbc318be8de783f4030eb37.sock
+SSH_AUTH_SOCK = /tmp/vscode-ssh-auth-2b369fce03e4d9db6acc62a8c4f155db70f1a84d.sock
 # default
 .SHELLFLAGS := -c
 # automatic
@@ -338,7 +338,7 @@ MLX_LINUX = ./lib/minilibx-linux/libmlx_linux.a
 # makefile (from 'Makefile', line 19)
 MLX_MAC = ./lib/macos/libmlx.a
 # environment
-REMOTE_CONTAINERS_IPC = /tmp/vscode-remote-containers-ipc-623e43a8b9aa0a85dbbc318be8de783f4030eb37.sock
+REMOTE_CONTAINERS_IPC = /tmp/vscode-remote-containers-ipc-2b369fce03e4d9db6acc62a8c4f155db70f1a84d.sock
 # environment
 REMOTE_CONTAINERS = true
 # automatic
@@ -376,7 +376,7 @@ _ = /bin/cat
 # makefile (from 'Makefile', line 42)
 MLX_L = $(MINILIBX_LINUX)
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-a43461a4-2a69-4c76-826a-90578b10cb39.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-01fa2e2e-eb4a-4b84-a37e-da183ca97c53.sock
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -404,9 +404,9 @@ NAME_L = -L/usr/lib $(MLX_LINUX) -lXext -lX11 -lm -lz
 
 # Directories
 
-# . (device 27, inode 26740122787679360): 11 files, no impossibilities.
+# . (device 27, inode 26740122787679360): 13 files, no impossibilities.
 
-# 11 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -495,12 +495,12 @@ fclean:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 19 / storage = 150 B / avg = 7 B
-# current buf: size = 8162 B / used = 150 B / count = 19 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 21 / storage = 172 B / avg = 8 B
+# current buf: size = 8162 B / used = 172 B / count = 21 / avg = 8 B
 
-# strcache performance: lookups = 32 / hit rate = 40%
+# strcache performance: lookups = 34 / hit rate = 38%
 # hash-table stats:
-# Load=19/8192=0%, Rehash=0, Collisions=0/32=0%
-# Finished Make data base on Tue Aug  9 12:55:34 2022
+# Load=21/8192=0%, Rehash=0, Collisions=0/34=0%
+# Finished Make data base on Tue Aug  9 15:26:02 2022
 
  

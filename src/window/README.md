@@ -1,5 +1,7 @@
 ## Exmaple One : init
 
+![pixel](./assets/pixel.png)
+
 init window and line drwaing
 
 

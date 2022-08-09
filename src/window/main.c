@@ -6,7 +6,7 @@
 /*   By: oal-tena <oal-tena@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/09 09:49:20 by oal-tena          #+#    #+#             */
-/*   Updated: 2022/08/09 15:02:32 by oal-tena         ###   ########.fr       */
+/*   Updated: 2022/08/09 15:27:25 by oal-tena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,8 +31,6 @@ typedef struct s_windows
 	void	*win;
 	void	*img;
 	int		*data;
-	void	*img_char;
-	char	*data_char;
 	int		bpp;
 	int		size_line;
 	int		endian;
@@ -44,9 +42,6 @@ void	init_window(t_windows *window)
 	window->win = mlx_new_window(window->mlx, WIDTH, HEIGHT, "mlx_ex01");
 	window->img = mlx_new_image(window->mlx, WIDTH, HEIGHT);
 	window->data = (int *)mlx_get_data_addr(window->img, &window->bpp,
-			&window->size_line, &window->endian);
-	window->img_char = mlx_new_image(window->mlx, WIDTH, HEIGHT);
-	window->data_char = mlx_get_data_addr(window->img_char, &window->bpp,
 			&window->size_line, &window->endian);
 }
 
@@ -61,7 +56,7 @@ void	init_line(t_line *line)
 }
 
 //exmaple put by pixel
-void	draw_line_array(t_windows *window, t_line *line)
+void	draw_line_by_pixel(t_windows *window, t_line *line)
 {
 	while (line->y1 < line->y2)
 	{
@@ -72,7 +67,7 @@ void	draw_line_array(t_windows *window, t_line *line)
 }
 
 //exmple of put per pixel
-void	draw_line(t_windows *window, t_line *line)
+void	draw_line_per_pxel(t_windows *window, t_line *line)
 {
 	char	*pixel;
 
@@ -97,8 +92,8 @@ int	main(void)
 	line = (t_line *)malloc(sizeof(t_line));
 	init_window(window);
 	init_line(line);
-	draw_line_array(window, line);
-	draw_line(window, line);
+	draw_line_by_pixel(window, line);
+	draw_line_per_pxel(window, line);
 	mlx_put_image_to_window(window->mlx, window->win, window->img, 0, 0);
 	mlx_loop(window->mlx);
 }
