@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.194.3/containers/cpp
 {
-    "name": "minishells",
+    "name": "mlx_Doc",
     "build": {
         "dockerfile": "Dockerfile",
         },
@@ -13,7 +13,7 @@
         "--privileged",
         "-ti",
         "-e",
-        "DISPLAY=192.168.4.70:0.0"
+        "DISPLAY=192.168.4.70:0.0" // replace with your HOST IP address
     ],
     // Set *default* container specific settings.json values on container create.
     "settings": {},
