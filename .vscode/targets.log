@@ -5,14 +5,13 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Tue Aug  9 12:49:19 2022
+# Make data base, printed on Tue Aug  9 12:55:34 2022
 
 # Variables
 
 # environment
-REMOTE_CONTAINERS_SOCKETS = ["/tmp/vscode-ssh-auth-0f23b2343e909aac3ba1b9887f4b150c58657cab.sock"]
+REMOTE_CONTAINERS_SOCKETS = ["/tmp/vscode-ssh-auth-623e43a8b9aa0a85dbbc318be8de783f4030eb37.sock"]
 # environment
 LC_ALL = C
 # environment
@@ -56,7 +55,7 @@ APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 MFLAGS = -pqrRw
 # environment
-SSH_AUTH_SOCK = /tmp/vscode-ssh-auth-0f23b2343e909aac3ba1b9887f4b150c58657cab.sock
+SSH_AUTH_SOCK = /tmp/vscode-ssh-auth-623e43a8b9aa0a85dbbc318be8de783f4030eb37.sock
 # default
 .SHELLFLAGS := -c
 # automatic
@@ -90,7 +89,7 @@ MAKEFILES :=
 # automatic
 ^F = $(notdir $^)
 # environment
-REMOTE_CONTAINERS_IPC = /tmp/vscode-remote-containers-ipc-0f23b2343e909aac3ba1b9887f4b150c58657cab.sock
+REMOTE_CONTAINERS_IPC = /tmp/vscode-remote-containers-ipc-623e43a8b9aa0a85dbbc318be8de783f4030eb37.sock
 # environment
 REMOTE_CONTAINERS = true
 # automatic
@@ -114,7 +113,7 @@ VSCODE_AGENT_FOLDER = /root/.vscode-server
 # environment
 _ = /bin/cat
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-8df297cc-3268-440b-90f1-752082fa071b.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-a43461a4-2a69-4c76-826a-90578b10cb39.sock
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -228,8 +227,9 @@ all: do_configure
 # strcache performance: lookups = 71 / hit rate = 15%
 # hash-table stats:
 # Load=60/8192=1%, Rehash=0, Collisions=0/71=0%
-# Finished Make data base on Tue Aug  9 12:49:19 2022
+# Finished Make data base on Tue Aug  9 12:55:34 2022
 
+ 
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -237,12 +237,12 @@ all: do_configure
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Aug  9 12:49:19 2022
+# Make data base, printed on Tue Aug  9 12:55:34 2022
 
 # Variables
 
 # environment
-REMOTE_CONTAINERS_SOCKETS = ["/tmp/vscode-ssh-auth-0f23b2343e909aac3ba1b9887f4b150c58657cab.sock"]
+REMOTE_CONTAINERS_SOCKETS = ["/tmp/vscode-ssh-auth-623e43a8b9aa0a85dbbc318be8de783f4030eb37.sock"]
 # makefile (from 'Makefile', line 23)
 OBJ = $(SRC:.c=.o)
 # environment
@@ -298,7 +298,7 @@ APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_AUTH_SOCK = /tmp/vscode-ssh-auth-0f23b2343e909aac3ba1b9887f4b150c58657cab.sock
+SSH_AUTH_SOCK = /tmp/vscode-ssh-auth-623e43a8b9aa0a85dbbc318be8de783f4030eb37.sock
 # default
 .SHELLFLAGS := -c
 # automatic
@@ -332,14 +332,13 @@ PATH = /vscode/vscode-server/bin/linux-x64/da76f93349a72022ca4670c1b84860304616a
 # default
 MAKEFILES := 
 # automatic
- 
 ^F = $(notdir $^)
 # makefile (from 'Makefile', line 18)
 MLX_LINUX = ./lib/minilibx-linux/libmlx_linux.a
 # makefile (from 'Makefile', line 19)
 MLX_MAC = ./lib/macos/libmlx.a
 # environment
-REMOTE_CONTAINERS_IPC = /tmp/vscode-remote-containers-ipc-0f23b2343e909aac3ba1b9887f4b150c58657cab.sock
+REMOTE_CONTAINERS_IPC = /tmp/vscode-remote-containers-ipc-623e43a8b9aa0a85dbbc318be8de783f4030eb37.sock
 # environment
 REMOTE_CONTAINERS = true
 # automatic
@@ -377,7 +376,7 @@ _ = /bin/cat
 # makefile (from 'Makefile', line 42)
 MLX_L = $(MINILIBX_LINUX)
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-8df297cc-3268-440b-90f1-752082fa071b.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-a43461a4-2a69-4c76-826a-90578b10cb39.sock
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -397,7 +396,7 @@ CC = gcc -g -O0
 # makefile (from 'Makefile', line 40)
 NAME_L = -L/usr/lib $(MLX_LINUX) -lXext -lX11 -lm -lz
 # variable set hash-table stats:
-# Load=77/1024=8%, Rehash=0, Collisions=1/121=1%
+# Load=77/1024=8%, Rehash=0, Collisions=1/124=1%
 
 # Pattern-specific Variable Values
 
@@ -418,7 +417,7 @@ NAME_L = -L/usr/lib $(MLX_LINUX) -lXext -lX11 -lm -lz
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-09 12:48:24.8946922
+#  Last modified 2022-08-09 12:51:25.586736
 #  File has been updated.
 #  Successfully updated.
 
@@ -426,9 +425,10 @@ clean:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 52):
+#  recipe to execute (from 'Makefile', line 53):
 	@rm -rf $(OBJ_DIR)
 	@rm -f ex_window
+	@rm -f ex_bresenham
 
 re: fclean clean all
 #  Implicit rule search has not been done.
@@ -465,17 +465,18 @@ all:
 # automatic
 # | := 
 # variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=9/18=50%
+# Load=8/32=25%, Rehash=0, Collisions=16/21=76%
 #  recipe to execute (from 'Makefile', line 47):
 	@ $(MAKE) -C $(MLX_L)
 	$(CC)  ./src/window/main.c ${NAME_L} -o ex_window
+	$(CC)  ./src/bresenham/main.c ${NAME_L} -o ex_bresenham
 	@echo "make done !"
 
 fclean:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 57):
+#  recipe to execute (from 'Makefile', line 59):
 	rm -f $(NAME)
 	
 	
@@ -500,6 +501,6 @@ fclean:
 # strcache performance: lookups = 32 / hit rate = 40%
 # hash-table stats:
 # Load=19/8192=0%, Rehash=0, Collisions=0/32=0%
-# Finished Make data base on Tue Aug  9 12:49:19 2022
+# Finished Make data base on Tue Aug  9 12:55:34 2022
 
  
