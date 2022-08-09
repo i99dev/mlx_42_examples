@@ -1,10 +1,11 @@
 # MLX Example
-This is an example of a MLX library function.
-I use Macos and linux libraries.
-	- Macos its download form 42 intra.
-	- Linux Library is available from:
-[link](https://github.com/42Paris/minilibx-linux)
-### Example One : init window and line drwaing
+---
+MLX library is available for Linux and MacOS.
+
+And this repository use Two different MLX libraries depending on the OS , you can check [Makefile](./Makefile) for more details.
+
+
+### How Do I Init MLX Library and Create Window ?
 ---
 - [x] how you can initialize a MLX library.
 - [x] how create window.
