@@ -2,8 +2,11 @@
 
 This is an example of a MLX library function.
 I use Macos and linux libraries.
-Macos its download form 42 intra.
-Linux Library is available from:[link](https://github.com/42Paris/minilibx-linux)
+
+- Macos its download form 42 intra.
+
+- Linux Library is available from:
+[link](https://github.com/42Paris/minilibx-linux)
 
 
 ### Example One :
