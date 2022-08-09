@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   create_windows.c                                   :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: oal-tena <oal-tena@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/09 09:49:20 by oal-tena          #+#    #+#             */
-/*   Updated: 2022/08/09 12:38:20 by oal-tena         ###   ########.fr       */
+/*   Updated: 2022/08/09 12:45:58 by oal-tena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/mlx_example.h"
+#include "../../include/mlx_example.h"
 
 #define WIDTH 800
 #define HEIGHT 600
@@ -44,6 +44,11 @@ void init_window(t_windows *window)
     window->data = (int *)mlx_get_data_addr(window->img, &window->bpp, &window->size_line, &window->endian); // Get the address of the image data
 }
 
+//window->data  is the address of the image data or drawable area of the window and we make it like array of int
+//window->bpp is the number of bits per pixel
+//window->size_line is the number of bytes per line
+//window->endian is the endianess of the image data
+
 void init_line(t_line *line)
 {
     line->x1 = 0;
@@ -61,6 +66,7 @@ void draw_line(t_windows *window, t_line *line)
         line->x1++;
     }
 }
+
 
 int main (void)
 {

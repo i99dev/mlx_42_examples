@@ -6,7 +6,7 @@
 #    By: oal-tena <oal-tena@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/09 09:48:24 by oal-tena          #+#    #+#              #
-#    Updated: 2022/08/09 11:54:12 by oal-tena         ###   ########.fr        #
+#    Updated: 2022/08/09 12:51:56 by oal-tena         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,19 +46,20 @@ SRC = src/main.c
 # all: $(NAME)
 
 
-$(OBJ_DIR)%.o:%.c include/mlx_example.h
-	@echo "Compiling $(<)"
-	@mkdir -p $(OBJ_DIR)/src
-	@echo "Compiling: $<"
-	@$(CC) $(CC_FLAGS) ${OBJ_L} -c $< -o $@
+# $(OBJ_DIR)%.o:%.c include/mlx_example.h
+# 	@echo "Compiling $(<)"
+# 	@mkdir -p $(OBJ_DIR)/src
+# 	@echo "Compiling: $<"
+# 	@$(CC) $(CC_FLAGS) ${OBJ_L} -c $< -o $@
 
 $(NAME):$(OBJ_PREFX) $(H_L)
 	$(CC)  $(OBJ_PREFX) ${NAME_L} -o $(NAME)
 	@echo "make done !"
 # exmaple 01: create window by mlx 
-window: $(NAME)
-	$(CC)  ./src/create_windows.c ${NAME_L} -o windows
+all:
+	$(CC)  ./src/window/main.c ${NAME_L} -o window
 	@echo "make done !"
+
 clean:
 	@rm -rf $(OBJ_DIR)
 

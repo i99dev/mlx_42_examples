@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Tue Aug  9 11:54:23 2022
+# Make data base, printed on Tue Aug  9 12:45:53 2022
 
 # Variables
 
@@ -222,7 +222,7 @@ window: exmaple
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 60):
-	$(CC)  ./src/create_windows.c ${NAME_L} -o windows
+	$(CC)  ./src/window/main.c ${NAME_L} -o windows
 	@echo "make done !"
 	
 
@@ -235,7 +235,7 @@ window: exmaple
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-09 11:54:12
+#  Last modified 2022-08-09 12:45:47
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -287,6 +287,6 @@ lib/macos/libmlx.a:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Tue Aug  9 11:54:23 2022
+# Finished Make data base on Tue Aug  9 12:45:53 2022
 
  
