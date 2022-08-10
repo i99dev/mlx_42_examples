@@ -30,7 +30,10 @@
 		"mhutchie.git-graph",
 		"aaron-bond.better-comments",
 		"ms-vsliveshare.vsliveshare-pack",
-		"keyhr.42-c-format"
+		"keyhr.42-c-format",
+		"yzhang.markdown-all-in-one",
+		"bierner.github-markdown-preview",
+		"shd101wyy.markdown-preview-enhanced"
 	],
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
     // "forwardPorts": [],
