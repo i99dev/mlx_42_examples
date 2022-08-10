@@ -1,4 +1,4 @@
-# MLX Example 🚧 Under construction 🚧
+# MLX 42 Example 🚧 Under construction 🚧
 ---
 MLX library is available for Linux and MacOS.
 
@@ -9,7 +9,7 @@ And this repository use Two different MLX libraries depending on the OS , you ca
 ---
 - [x] [Exmaple One](./src/window/): Init MLX, create window and drawing lines.✅
 
-## How Develop Game through Docker ?
+### How to Develop with MLX at Docker?
 ---
 OK , Good question , I will show you how to develop game through Docker first You need to install Docker not matter what OS you are using and next you need install :
 x11 for Linux and MacOS , and [Xming](https://sourceforge.net/projects/xming/) for Windows.

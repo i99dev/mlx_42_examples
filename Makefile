@@ -6,7 +6,7 @@
 #    By: oal-tena <oal-tena@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/09 09:48:24 by oal-tena          #+#    #+#              #
-#    Updated: 2022/08/09 12:51:25 by oal-tena         ###   ########.fr        #
+#    Updated: 2022/08/10 04:13:49 by oal-tena         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,6 +18,7 @@ MINILIBX_MACOS=lib/macos
 MLX_LINUX=./lib/minilibx-linux/libmlx_linux.a
 MLX_MAC=./lib/macos/libmlx.a
 
+SRC = utils/*.c
 
 OBJ_DIR=package/
 OBJ=$(SRC:.c=.o)
@@ -41,6 +42,7 @@ else
 	MLX_A = ${MLX_LINUX}
 	MLX_L = $(MINILIBX_LINUX)
 endif
+
 
 # exmaple 01: create window by mlx 
 all:

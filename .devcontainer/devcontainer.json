@@ -20,7 +20,6 @@
     // Add the IDs of extensions you want installed when the container is created.
     "extensions": [
 		"ms-vscode.cpptools",
-		"hroussea.42-norminette-v2",
 		"kube.42header",
 		"donjayamanne.git-extension-pack",
 		"gruntfuggly.todo-tree",
