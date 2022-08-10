@@ -81,15 +81,3 @@ To drwa at `window->data`
 ```c
 window->data[90*window->img_wide + 48] = 0xffffffff;
 ```
-
-#### How collections works ?
-we need get the difference between the x0 and x1 and the y0 and y1.
-
-```
-map_info->img_wide = 300;
-map_info->img_high = 300;
-
-dx = (map->img_wide / map_wide) = 300*4/19 = 22.5
-
-
->note: the right column will draw next loop 
