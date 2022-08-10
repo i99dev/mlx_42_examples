@@ -5,12 +5,9 @@ MLX library is available for Linux and MacOS.
 And this repository use Two different MLX libraries depending on the OS , you can check [Makefile](./Makefile) for more details.
 
 
-### How Do I Init MLX Library and Create Window ?
+### What is included in this repository ?
 ---
-- [x] how you can initialize a MLX library.
-- [x] how create window.
-- [x] how you can draw a line
-- [Doc and Exmaple](./src/window/)
+- [x] [Exmaple One](./src/window/): Init MLX, create window and drawing lines.✅
 
 ## How Develop Game through Docker ?
 ---
@@ -19,33 +16,31 @@ x11 for Linux and MacOS , and [Xming](https://sourceforge.net/projects/xming/) f
 
 when everything is done.
 
-this project come with `.devcontainer` folder , that means you can use with vcode  run with conatiner and after docker run and you have access to your terminal on docker container.
+This project come with `.devcontainer` folder , that means you can use with vcode  run with conatiner and after docker run and you have access to your terminal on docker container.
 
-set Display to <HOST IP>:0.0
-
+set Display to `<HOST IP>:0.0`
 ```bash 
-
 export DISPLAY=<HOST IP>:0.0
-
 ```
 
 On your PC not docker make sure write this command to your terminal :
 
-for MAC
+for MAC Or Linux
 ```bash
 xhost + .
 ```
 
 For windows
 
-search on app for Xlunch and run it.
- - Select Muiltiple windows
- - Start no client.
+Search on windows app for Xlunch and run it.
+ - Select `Muiltiple windows`.
+ - Select `Start no client`.
  - Make sure you check `N Access Control`
 
- To make sure everything work fine write on Docker terminal :
- Xclock , should show you a clock with a red cross.
+ Then make sure everything work fine by write on Docker terminal :
+ `Xclock` , should show you a clock with a red cross.
 
- Now You can start your development.
-### contributors
-at slack  : @oal-tena
+ Now You can start development with Docker.
+
+### Contributors
+any questions , feel free to contact me on [Github](https://github.com/i99dev) or Slack 42 Network `oal-tena`.
