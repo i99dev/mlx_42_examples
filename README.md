@@ -43,6 +43,9 @@ Search on windows app for Xlunch and run it.
  `Xclock` , should show you a clock with a red cross.
 
  Now You can start development with Docker.
+ 
+ ### Resources
+ - [Ray Casting](https://permadi.com/1996/05/ray-casting-tutorial-table-of-contents/)
 
 ### Contributors
 any questions , feel free to contact me on [Github](https://github.com/i99dev) or Slack 42 Network `oal-tena`.
