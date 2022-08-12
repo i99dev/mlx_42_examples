@@ -1,10 +1,10 @@
 make --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/workspaces/mlx_42_example'
 make -C lib/minilibx-linux
- 
 make[1]: Entering directory '/workspaces/mlx_42_example/lib/minilibx-linux'
 ./configure
 make[1]: Leaving directory '/workspaces/mlx_42_example/lib/minilibx-linux'
+ 
 gcc -g -O0  ./src/window/main.c -L/usr/lib ./lib/minilibx-linux/libmlx_linux.a -lXext -lX11 -lm -lz -o ex_window
 gcc -g -O0  ./src/bresenham/main.c -L/usr/lib ./lib/minilibx-linux/libmlx_linux.a -lXext -lX11 -lm -lz -o ex_bresenham
 echo "make done !"

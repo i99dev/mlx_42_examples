@@ -6,7 +6,7 @@
 /*   By: oal-tena <oal-tena@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/09 12:49:23 by oal-tena          #+#    #+#             */
-/*   Updated: 2022/08/10 07:04:34 by oal-tena         ###   ########.fr       */
+/*   Updated: 2022/08/12 04:20:20 by oal-tena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,24 +76,43 @@ void	init_map(t_map *map)
 	map->dy = round(map->img_high / map->map_high);
 }
 
+void swap(int *a, int *b)
+{
+	int tmp;
+
+	tmp = *a;
+	*a = *b;
+	*b = tmp;
+}
+
 void	cube(t_windows *window, int x, int y, t_map *map_info, t_line *line)
 {
-	int step_x;
-	int step_y;
 	line->x0 = x * map_info->dx;
 	line->y0 = y * map_info->dy;
 	line->x1 = line->x0 + map_info->dx;
 	line->y1 = line->y0 + map_info->dy;
-	printf("x0=%d x1=%d\n", line->x0, line->x1);
-	while(line->x0 < line->x1)
-	{
-		window->data[line->x0 + line->y0 * map_info->img_wide] = 0xFFFFFF;
-		line->x0++;
-	}
+	printf("x =%d x0=%d x1=%d\n", x, line->x0, line->x1);
 	while (line->y0 < line->y1)
 	{
-		window->data[(line->y0 * map_info->img_wide) + line->x0] = 0xDD9933;
+		window->data[line->y0 * map_info->img_wide + line->x0] = 0xDD9933;
 		line->y0++;
+	}
+	line->y0--;
+	while(line->x0 < line->x1)
+	{
+		window->data[line->y0 * map_info->img_wide + line->x0] = 0xDD9933;
+		line->x0++;
+	}
+	printf("x =%d x0=%d x1=%d\n", x, line->x0, line->x1);
+	while (line->y0 > (y * map_info->dy))
+	{
+		window->data[line->y0 * map_info->img_wide + line->x0] = 0xFFFFFF;
+		line->y0--;
+	}
+	while (line->x0 > (x * map_info->dx))
+	{
+		window->data[line->y0 * map_info->img_wide + line->x0] = 0xFFFFFF;
+		line->x0--;
 	}
 }
 

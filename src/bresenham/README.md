@@ -1,5 +1,7 @@
 # Bresenham algorithm and mlx library 🚧 under development 🚧
 
+![cube](./assets/cube.png)
+
 On this Projec You will note the `window->img ` size is assigned to the `map_info->img_wide` and `map_info->img_high` function.
 
 This Changes the size  will effect at bpp and the size of the image, but not the size of the window.
