@@ -8,7 +8,7 @@ And this repository use Two different MLX libraries depending on the OS , you ca
 ### What is included in this repository ?
 ---
 - [x] [Exmaple One](./src/window/): Init MLX, create window and drawing lines.✅
-- [ ] [Example Two](./src/bresenham/): drawing lines with bresenham algorithm.🚧
+- [x] [Example Two](./src/bresenham/): drawing lines with bresenham algorithm.🚧
 - [ ] Example Three: raycasting implementation.💡
 
 ### How to Develop with MLX at Docker?
