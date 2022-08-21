@@ -6,16 +6,16 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Aug 12 03:22:44 2022
+# Make data base, printed on Sun Aug 21 13:12:04 2022
 
 # Variables
 
 # environment
-REMOTE_CONTAINERS_SOCKETS = ["/tmp/vscode-ssh-auth-3fda81e5b6d01e02c2c31328b82a9914c23a561f.sock"]
+REMOTE_CONTAINERS_SOCKETS = ["/tmp/vscode-ssh-auth-06de8c47554e0b854201fd58b0da6171a286eab1.sock"]
 # environment
 LC_ALL = C
 # environment
-VSCODE_CWD = /vscode/vscode-server/bin/linux-x64/6d9b74a70ca9c7733b29f0456fd8195364076dda
+VSCODE_CWD = /vscode/vscode-server/bin/linux-x64/e4503b30fc78200f846c62cf8091b76ff5547662
 # default
 MAKE_COMMAND := make
 # environment
@@ -23,11 +23,13 @@ VSCODE_HANDLES_SIGPIPE = true
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
+DOCKER_BUILDKIT = 1
+# environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
 # environment
-PWD = /workspaces/mlx_42_example
+PWD = /workspaces/mlx_42_examples
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
@@ -45,7 +47,7 @@ LANG = C
 # makefile
 MAKEFLAGS = pqrRw
 # makefile
-CURDIR := /workspaces/mlx_42_example/lib/minilibx-linux
+CURDIR := /workspaces/mlx_42_examples/lib/minilibx-linux
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
@@ -53,8 +55,9 @@ APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 MFLAGS = -pqrRw
 # environment
-SSH_AUTH_SOCK = /tmp/vscode-ssh-auth-3fda81e5b6d01e02c2c31328b82a9914c23a561f.sock
+SSH_AUTH_SOCK = /tmp/vscode-ssh-auth-06de8c47554e0b854201fd58b0da6171a286eab1.sock
 # default
+ 
 .SHELLFLAGS := -c
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
@@ -81,13 +84,13 @@ MAKELEVEL := 1
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = /vscode/vscode-server/bin/linux-x64/6d9b74a70ca9c7733b29f0456fd8195364076dda/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PATH = /vscode/vscode-server/bin/linux-x64/e4503b30fc78200f846c62cf8091b76ff5547662/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 # default
 MAKEFILES := 
 # automatic
 ^F = $(notdir $^)
 # environment
-REMOTE_CONTAINERS_IPC = /tmp/vscode-remote-containers-ipc-3fda81e5b6d01e02c2c31328b82a9914c23a561f.sock
+REMOTE_CONTAINERS_IPC = /tmp/vscode-remote-containers-ipc-06de8c47554e0b854201fd58b0da6171a286eab1.sock
 # environment
 REMOTE_CONTAINERS = true
 # automatic
@@ -97,7 +100,7 @@ REMOTE_CONTAINERS = true
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
-BROWSER = /vscode/vscode-server/bin/linux-x64/6d9b74a70ca9c7733b29f0456fd8195364076dda/bin/helpers/browser.sh
+BROWSER = /vscode/vscode-server/bin/linux-x64/e4503b30fc78200f846c62cf8091b76ff5547662/bin/helpers/browser.sh
 # makefile
 .DEFAULT_GOAL := all
 # environment
@@ -111,7 +114,7 @@ VSCODE_AGENT_FOLDER = /root/.vscode-server
 # environment
 _ = /bin/cat
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-6fbe5597-985b-46bd-9975-3d8696b51d62.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-7708c9e0-6453-4e5f-9fde-8f6dd986e16c.sock
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -127,7 +130,7 @@ SUFFIXES :=
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # variable set hash-table stats:
-# Load=58/1024=6%, Rehash=0, Collisions=1/93=1%
+# Load=59/1024=6%, Rehash=0, Collisions=1/94=1%
 
 # Pattern-specific Variable Values
 
@@ -135,7 +138,7 @@ SUFFIXES :=
 
 # Directories
 
-# . (device 27, inode 32088147345207738): 51 files, no impossibilities.
+# . (device 25, inode 85568392920095702): 51 files, no impossibilities.
 
 # 51 files, no impossibilities in 1 directories.
 
@@ -175,7 +178,7 @@ do_configure:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-09 12:17:42.5061119
+#  Last modified 2022-08-21 12:49:38.2771145
 #  File has been updated.
 #  Successfully updated.
 
@@ -225,7 +228,7 @@ all: do_configure
 # strcache performance: lookups = 71 / hit rate = 15%
 # hash-table stats:
 # Load=60/8192=1%, Rehash=0, Collisions=0/71=0%
-# Finished Make data base on Fri Aug 12 03:22:44 2022
+# Finished Make data base on Sun Aug 21 13:12:04 2022
 
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
@@ -234,12 +237,12 @@ all: do_configure
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Aug 12 03:22:44 2022
+# Make data base, printed on Sun Aug 21 13:12:04 2022
 
 # Variables
 
 # environment
-REMOTE_CONTAINERS_SOCKETS = ["/tmp/vscode-ssh-auth-3fda81e5b6d01e02c2c31328b82a9914c23a561f.sock"]
+REMOTE_CONTAINERS_SOCKETS = ["/tmp/vscode-ssh-auth-06de8c47554e0b854201fd58b0da6171a286eab1.sock"]
 # makefile (from 'Makefile', line 24)
 OBJ = $(SRC:.c=.o)
 # environment
@@ -247,7 +250,7 @@ LC_ALL = C
 # makefile (from 'Makefile', line 21)
 SRC = utils/*.c
 # environment
-VSCODE_CWD = /vscode/vscode-server/bin/linux-x64/6d9b74a70ca9c7733b29f0456fd8195364076dda
+VSCODE_CWD = /vscode/vscode-server/bin/linux-x64/e4503b30fc78200f846c62cf8091b76ff5547662
 # default
 MAKE_COMMAND := make
 # environment
@@ -258,6 +261,8 @@ MINILIBX_MACOS = lib/macos
 @D = $(patsubst %/,%,$(dir $@))
 # makefile (from 'Makefile', line 40)
 OBJ_L = -I/usr/include -I$(MINILIBX_LINUX) -O3
+# environment
+DOCKER_BUILDKIT = 1
 # makefile (from 'Makefile', line 23)
 OBJ_DIR = package/
 # environment
@@ -265,7 +270,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
 # environment
-PWD = /workspaces/mlx_42_example
+PWD = /workspaces/mlx_42_examples
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
@@ -287,7 +292,7 @@ LANG = C
 # makefile
 MAKEFLAGS = pqrR
 # makefile
-CURDIR := /workspaces/mlx_42_example
+CURDIR := /workspaces/mlx_42_examples
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
@@ -295,7 +300,7 @@ APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_AUTH_SOCK = /tmp/vscode-ssh-auth-3fda81e5b6d01e02c2c31328b82a9914c23a561f.sock
+SSH_AUTH_SOCK = /tmp/vscode-ssh-auth-06de8c47554e0b854201fd58b0da6171a286eab1.sock
 # default
 .SHELLFLAGS := -c
 # automatic
@@ -316,7 +321,6 @@ VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
 MAKE_HOST := x86_64-pc-linux-gnu
 # makefile
 SHELL = /bin/sh
- 
 # default
 MAKECMDGOALS := all
 # environment
@@ -326,7 +330,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = /vscode/vscode-server/bin/linux-x64/6d9b74a70ca9c7733b29f0456fd8195364076dda/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PATH = /vscode/vscode-server/bin/linux-x64/e4503b30fc78200f846c62cf8091b76ff5547662/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 # default
 MAKEFILES := 
 # automatic
@@ -336,7 +340,7 @@ MLX_LINUX = ./lib/minilibx-linux/libmlx_linux.a
 # makefile (from 'Makefile', line 19)
 MLX_MAC = ./lib/macos/libmlx.a
 # environment
-REMOTE_CONTAINERS_IPC = /tmp/vscode-remote-containers-ipc-3fda81e5b6d01e02c2c31328b82a9914c23a561f.sock
+REMOTE_CONTAINERS_IPC = /tmp/vscode-remote-containers-ipc-06de8c47554e0b854201fd58b0da6171a286eab1.sock
 # environment
 REMOTE_CONTAINERS = true
 # automatic
@@ -350,7 +354,8 @@ OP = linux
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
-BROWSER = /vscode/vscode-server/bin/linux-x64/6d9b74a70ca9c7733b29f0456fd8195364076dda/bin/helpers/browser.sh
+BROWSER = /vscode/vscode-server/bin/linux-x64/e4503b30fc78200f846c62cf8091b76ff5547662/bin/helpers/browser.sh
+ 
 # makefile (from 'Makefile', line 31)
 OS = $(shell uname)
 # makefile
@@ -374,7 +379,7 @@ _ = /bin/cat
 # makefile (from 'Makefile', line 43)
 MLX_L = $(MINILIBX_LINUX)
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-6fbe5597-985b-46bd-9975-3d8696b51d62.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-7708c9e0-6453-4e5f-9fde-8f6dd986e16c.sock
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -394,7 +399,7 @@ CC = gcc -g -O0
 # makefile (from 'Makefile', line 41)
 NAME_L = -L/usr/lib $(MLX_LINUX) -lXext -lX11 -lm -lz
 # variable set hash-table stats:
-# Load=77/1024=8%, Rehash=0, Collisions=2/124=2%
+# Load=78/1024=8%, Rehash=0, Collisions=2/128=2%
 
 # Pattern-specific Variable Values
 
@@ -402,9 +407,9 @@ NAME_L = -L/usr/lib $(MLX_LINUX) -lXext -lX11 -lm -lz
 
 # Directories
 
-# . (device 27, inode 26740122787679360): 13 files, no impossibilities.
+# . (device 25, inode 53761720551761776): 14 files, no impossibilities.
 
-# 13 files, no impossibilities in 1 directories.
+# 14 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -415,7 +420,7 @@ NAME_L = -L/usr/lib $(MLX_LINUX) -lXext -lX11 -lm -lz
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-10 04:13:49.8633295
+#  Last modified 2022-08-21 13:11:44.8537718
 #  File has been updated.
 #  Successfully updated.
 
@@ -423,7 +428,7 @@ clean:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 55):
+#  recipe to execute (from 'Makefile', line 56):
 	@rm -rf $(OBJ_DIR)
 	@rm -f ex_window
 	@rm -f ex_bresenham
@@ -463,18 +468,19 @@ all:
 # automatic
 # | := 
 # variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=16/21=76%
+# Load=8/32=25%, Rehash=0, Collisions=23/24=96%
 #  recipe to execute (from 'Makefile', line 49):
 	@ $(MAKE) -C $(MLX_L)
 	$(CC)  ./src/window/main.c ${NAME_L} -o ex_window
 	$(CC)  ./src/bresenham/main.c ${NAME_L} -o ex_bresenham
+	$(CC)  ./src/raycasting/gnl.c ./src/raycasting/main.c ${NAME_L} -o ex_raycast
 	@echo "make done !"
 
 fclean:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 61):
+#  recipe to execute (from 'Makefile', line 62):
 	rm -f $(NAME)
 	
 	
@@ -493,12 +499,12 @@ fclean:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 21 / storage = 172 B / avg = 8 B
-# current buf: size = 8162 B / used = 172 B / count = 21 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 22 / storage = 183 B / avg = 8 B
+# current buf: size = 8162 B / used = 183 B / count = 22 / avg = 8 B
 
-# strcache performance: lookups = 34 / hit rate = 38%
+# strcache performance: lookups = 35 / hit rate = 37%
 # hash-table stats:
-# Load=21/8192=0%, Rehash=0, Collisions=0/34=0%
-# Finished Make data base on Fri Aug 12 03:22:44 2022
+# Load=22/8192=0%, Rehash=0, Collisions=0/35=0%
+# Finished Make data base on Sun Aug 21 13:12:04 2022
 
  

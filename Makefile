@@ -6,7 +6,7 @@
 #    By: oal-tena <oal-tena@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/09 09:48:24 by oal-tena          #+#    #+#              #
-#    Updated: 2022/08/10 04:13:49 by oal-tena         ###   ########.fr        #
+#    Updated: 2022/08/21 13:12:25 by oal-tena         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -49,6 +49,8 @@ all:
 	@ $(MAKE) -C $(MLX_L)
 	$(CC)  ./src/window/main.c ${NAME_L} -o ex_window
 	$(CC)  ./src/bresenham/main.c ${NAME_L} -o ex_bresenham
+	$(CC)  ./src/raycasting/gnl.c \
+	./src/raycasting/main.c ${NAME_L} -o ex_raycast
 	@echo "make done !"
 
 clean:
