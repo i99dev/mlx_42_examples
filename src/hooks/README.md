@@ -20,8 +20,16 @@ To compile and test the code.
 
 ## mlx_hook
 ```
-int mlx_hook(void *win_ptr, int x_event, int x_mask, int (*funct)(), void *param);
+int mlx_hook(void *win_ptr, int x_event, int x_mask, int (*funct_ptr)(), void *param);
 ```
+mlx_hook used to hook into event, which allows you to register to any X11 events and a call to your drfined function. So, in each time this event happens (funct) will be called. For more information about the [X11 events](https://tronche.com/gui/x/xlib/events/).
+
+### How to use this function?
+You can easily pass the event code, mask code (from X11 library), poiner of your defined function, and a pointer of a parameter that you want to pass to (funct_ptr). For example, let's say that you will catch the event of closing the window of the screen which called a destroy notify. Once this event happen (funct_ptr) will be called, it will destroy the window and close the program.
+
+To compile and test the code.
+- make h
+- ./loop
 
 ## mlx_loop_hook
 ```
