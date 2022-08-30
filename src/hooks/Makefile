@@ -6,7 +6,7 @@
 #    By: aaljaber <aaljaber@student.42abudhabi.a    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/07/18 13:42:43 by aaljaber          #+#    #+#              #
-#    Updated: 2022/08/21 21:34:04 by aaljaber         ###   ########.fr        #
+#    Updated: 2022/08/26 01:22:00 by aaljaber         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,6 +16,8 @@
 KEY_HOOK = ./key_hook/main.c
 
 LOOP_HOOK = ./loop_hook/main.c
+
+MLX_HOOK = ./mlx_hook/main.c
 
 CC = gcc
 
@@ -33,7 +35,10 @@ l :
 	${MAKE} -C ./MLX
 	${CC} ${FLAGS} ${LINKS} ${LOOP_HOOK} -o loop
 
+h :
+	${MAKE} -C ./MLX
+	${CC} ${FLAGS} ${LINKS} ${MLX_HOOK} -o hook
 
 clean: 
-	${RM} key loop
+	${RM} key loop hook
 	${MAKE} clean -C ./MLX
